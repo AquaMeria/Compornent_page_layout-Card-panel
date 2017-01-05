@@ -1,0 +1,2 @@
+# Compornent_page_layout-Card-panel
+1色背景のパネルをカード状に並べるレイアウト

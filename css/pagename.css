@@ -1,0 +1,89 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+┏┓
+┗■ INDEX
+
+|   01.カード型パネル
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+/*--------------------
+  03.カード型パネル
+--------------------*/
+.section{
+    background: #FFF;
+}
+.section__title{
+    color:#666;
+    font-size: 3rem;
+    margin:6rem 0 3rem;
+}
+.section__content{
+    margin:5rem 5rem 2rem;
+}
+@media screen and (max-width: 767px) {
+    .section__content{
+        margin:2rem;
+    }
+}
+.section__content div{
+    color:#fff;
+    display: block;
+    height:33rem;
+    margin:1rem;
+    text-align: center;
+    width:33rem;
+}
+@media screen and (min-width: 768px) and (max-width: 979px) {
+    .section__content div{
+        height:30rem;
+        width:30rem;
+    }
+}
+@media screen and (max-width: 767px) {
+    .section__content div{
+        height:25rem;
+        margin:0 auto;
+        width:32rem;
+    }
+}
+.section__content__block--discovery{
+    background: #7FC616;
+}
+.section__content__block--shine{
+    background: #F0D848;
+}
+.section__content__block--sex{
+    background: #FF1493;
+}
+.section__content__block--love{
+    background: #EB1010;
+}
+.section__content__block__name{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 5rem 0 3rem; 
+}
+@media screen and (max-width: 767px) {
+    .section__content__block__name{
+        margin:2rem 0;
+        padding: 2rem 0 0;
+    }
+}
+.section__content__block__count{
+    font-size: 3rem;
+    line-height: 12rem;
+    padding: 0 0 0 2rem;
+}
+.section__content__block__count__emphasis{
+    font-size: 15rem;
+}
+.section__attention{
+    font-size: 1.3rem;
+    margin: 0 0 4rem 4.5rem;
+}
+@media screen and (max-width: 400px) {
+  .section__attention {
+    margin: 0 0 4rem 1.2rem;
+  }
+}
